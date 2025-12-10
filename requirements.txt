@@ -1,14 +1,21 @@
+# --- Core Dependencies ---
 gradio==5.8.0
 torch>=2.1.0,<2.6.0
-torchaudio
-transformers
-huggingface_hub
+torchaudio>=2.1.0,<2.6.0
+transformers>=4.40.0
+huggingface_hub>=0.25.0
+
+# --- AI Voice Engines (Git Repos) ---
 fish-speech @ git+https://github.com/fishaudio/fish-speech.git
 openvoice @ git+https://github.com/myshell-ai/OpenVoice.git
-basic-pitch-inference
-pydub
-librosa
-numpy
-scipy
-pedalboard
-tqdm
+
+# --- Music & Audio Processing ---
+basic-pitch-inference>=0.3.0
+pydub>=0.25.1
+librosa>=0.10.0
+numpy>=1.26.0
+scipy>=1.11.0
+pedalboard>=0.7.6
+
+# --- Utility ---
+tqdm>=4.66.0
