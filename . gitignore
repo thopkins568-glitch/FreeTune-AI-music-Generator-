@@ -1,0 +1,141 @@
+# ===========================
+#   GLOBAL IGNORE RULES
+# ===========================
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.*
+*.secret
+secrets.json
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+.envrc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Audio output cache
+*.wav
+*.mp3
+*.flac
+*.ogg
+generated_audio/
+audio_cache/
+
+# Model weights / large files
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+models/*.bin
+models/*.pt
+models/*.pth
+models/cache/
+
+# ===========================
+#   ANDROID / KOTLIN
+# ===========================
+
+# Gradle files
+.gradle/
+build/
+**/build/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+**/.DS_Store
+
+# Kotlin build artifacts
+out/
+captures/
+
+# Generated app files
+app/release/
+app/debug/
+app/**/generated/
+
+# Temporary Android files
+*.hprof
+
+# ===========================
+#   NODE / WEB (future-proof)
+# ===========================
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+cache/
+.next/
+out/
+
+# ===========================
+#   BACKEND
+# ===========================
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# ===========================
+#   DOCUMENTATION & TOOLS
+# ===========================
+
+# Sphinx / MkDocs / Docs builds
+site/
+docs/_build/
+
+# ===========================
+#   MISC & FUTURE-PROOFING
+# ===========================
+
+*.bak
+*.backup
+*.old
+*.orig
+
+# Ignore local config overrides
+config.local.json
+*local_settings.py
+
+# JetBrains IDEs (intellij, pycharm)
+.idea/
+
+# VSCode
+.vscode/
+.history/
+
+# ===========================
+# END
+# ===========================
